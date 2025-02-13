@@ -25,6 +25,8 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
+    namespace 'de.goddchen.flutter.flutter_native_logs'
+    
     compileSdkVersion 31
 
     compileOptions {
